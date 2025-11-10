@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Get your next meal delivered by drone.">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="personal.css">
+    
+    <meta charset="UTF-8">
+    <title>Questions and Comments</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+    <span>
+        <h1>Eryndor DnD</h1>
+    </span>
+    <h2>Uncover The Secrets Of Eryndor</h2>
+</header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <br>
+    <ul>
+    <li><a href="../index.html">Directory</a></li>
+    <li><a href="03 HandCoding.html">Index</a></li>
+    <li><a href="NPCs.html">NPCs</a></li>
+    <li><a href="PCs.html">PCs</a></li>
+    <li><a href="Map.html">Map</a></li>
+    <li><a href="Info.html">Info</a></li>
+    <li class="active"><a href="Questions.html">Questions FORM</a></li>
+    </ul>
+    <br>
+</nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Submit a Question or Comment</h1>
+       <form method="get" class="myForm" action="Thanks.html">
+            <fieldset>
+                <legend>Commenter Info</legend>
+            <label>Username <input type="text" name="user" required></label>
+         <label>First Name<input type="text" name="fname" required></label>
+          <label>Last Name<input type="text" name="lname"></label>
+           <label>Cell Number<input type="tel" name="phone"></label>
+           <label>Email<input type="email" name="email" required></label>
+             </fieldset>
+
+             <fieldset>
+                <legend>
+                    Comment Type
+                </legend>
+                <label><input type="radio" name="type" value="suggestion">Campaign Suggestion</label>
+                <label><input type="radio" name="type" value="comment">Non-Urgent Comment</label>
+                <label><input type="radio" name="type" value="concern">Urgent Comment/Concern</label>
+        
+             </fieldset>
+             <fieldset>
+                <legend>
+                    Comment Content
+                </legend>
+                <label><input type="checkbox" name="NPC"value="chosen">Regarding NPC</label>
+                <label><input type="checkbox" name="PC"value="chosen">Regarding PC</label>
+                <label><input type="checkbox" name="Gameplay"value="chosen">Regarding Gameplay</label>
+                <label><input type="checkbox" name="Other"value="chosen">Other</label>
+                </fieldset>
+                <fieldset>
+                <label>
+                    <legend>
+                        Desired Recipient
+                    </legend>
+                <select name="Recipient">
+                    <option value="none">Please Select</option>
+                    <option value="DM">Dungeon Master: Finn</option>
+                    <option value="playerAn">Player: Andrew</option>
+                    <option value="playerAi">Player: Aiden</option>
+                    <option value="playerJo">Player: Jonathan</option>
+                    <option value="group">Group</option>
+                </select>
+                </label>
+             </fieldset>
+
+             <label>Comment
+                <textarea name="comment" required></textarea>
+             </label>
+        <input type="submit" value="Submit Comment">
+       </form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+    <address>Contact me via phone at <a href="tel: +0000000000">000-000-0000</a> or via Discord at Not_My_Real_Discord_Username</address>
+   <h5>Copyright © Finn Theobald 2025 All Rights Reserved</h5>
+</footer>
+</body>
+</html>

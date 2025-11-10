@@ -1,0 +1,72 @@
+main {
+    background-color: #fff8e0;
+}
+body {
+    background-color: #fff8e0;
+}
+nav {
+    background-color: #3f8145;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: flex;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2rem;
+}
+nav .active a {
+    background-color: #5d3a2a;
+    color: #ffffff;
+}
+nav a:hover {
+    background-color: #222;
+}
+.myForm fieldset{
+    border: 1px solid green;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend {
+    color: #43a0b6;
+    font-size: .8rem;
+}
+.myForm label {
+    margin: .5rem;
+}
+.myForm label,.myForm select,.myForm [type=text],.myForm [type=tel],.myForm textarea,.myForm [type=email]{
+display: block;
+
+}
+.myForm select,.myForm [type=text],.myForm [type=tel],.myForm textarea,.myForm [type=email]{
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea{
+    height: 6rem;
+}
+.myForm :required{
+    background-color: rgba(156, 51, 53, 0.1);
+}
+.myForm [type=submit]{
+   background-color: #43a0b6;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 .5rem;
+}
+footer {
+     background-color: #fff8e0;
+}
