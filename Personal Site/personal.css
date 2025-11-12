@@ -1,6 +1,7 @@
 main {
     background-color: #fff8e0;
 }
+
 body {
     background-color: #fff8e0;
 }
@@ -30,12 +31,13 @@ nav a:hover {
     background-color: #222;
 }
 .myForm fieldset{
-    border: 1px solid green;
+    border: 2px solid green;
     border-radius: 3px;
     margin-bottom: 1rem;
+
 }
 .myForm legend {
-    color: #43a0b6;
+    color: goldenrod;
     font-size: .8rem;
 }
 .myForm label {
@@ -55,13 +57,15 @@ display: block;
 }
 .myForm textarea{
     height: 6rem;
+    color: #112911;
+    font-size: large;
 }
 .myForm :required{
     background-color: rgba(156, 51, 53, 0.1);
 }
 .myForm [type=submit]{
-   background-color: #43a0b6;
-    border: none;
+   background-color: goldenrod;
+    border: solid 1px #443300;
     padding: 1rem 2rem;
     border-radius: 10px;
     color: white;
