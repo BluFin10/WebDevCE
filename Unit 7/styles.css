@@ -130,12 +130,12 @@ main a {
     font-weight: 700;
     color: #895772;
 }
-.angeloGallery section img {
+.angeloGallery img {
     width: 98%;
     height: auto;
     border-radius: 5px;
 }
-.angeloGallery section img:hover {
+.angeloGallery img:hover {
     box-shadow: 0px 0px 10 rgba(0, 0, 0, 5);
     border: red;
     border-width: 5px;
