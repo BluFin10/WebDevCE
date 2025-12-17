@@ -13,6 +13,12 @@ body h1 {
     text-align: center;
     font-size: 3rem;
 }
+body h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
 body p{
     color: white;
     font-size: 1.5rem;
@@ -74,6 +80,7 @@ nav .active a {
 }
 nav a:hover {
     background-color: #2d7ab9;
+    border-radius: .5rem;
 }
 }
 @media only screen and (max-width: 600px) {
@@ -203,4 +210,52 @@ footer {
     width: 40%;
     height: auto;
     margin-bottom: .5rem;
+    border-radius: 1rem;
+}
+hr {
+     border: none;
+    height: 2px;
+    width: 70%;
+    margin: 2.5rem auto;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(90, 218, 250, 0.8),
+        transparent);
+}
+.destGallery {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+} 
+.destGallery section {
+    flex-basis: 50%;
+    margin: 2rem 0;
+    
+}
+.destGallery span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    display: block;
+    text-align: center; 
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 2.5rem;
+}
+.destGallery img {
+    width: 40rem;
+    height: 25rem;         
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.destGallery img:hover {
+    box-shadow: 0px 0px 10 rgba(0, 0, 0, 5);
+    border: red;
+    border-width: 5px;
+}
+iframe {
+    display: block;
+    margin: 2rem auto;
+    
+    
 }
