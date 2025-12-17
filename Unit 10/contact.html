@@ -39,7 +39,56 @@ Look guys I dided a comment this is so information
 
 </main>
 <body>
-    
+    <h1>Contact Us</h1>
+       <form method="get" class="myForm" action="Thanks.html">
+            <fieldset>
+                <legend>Commenter Info</legend>
+            <label>Username <input type="text" name="user" required></label>
+         <label>First Name<input type="text" name="fname" required></label>
+          <label>Last Name<input type="text" name="lname"></label>
+           <label>Cell Number<input type="tel" name="phone"></label>
+           <label>Email<input type="email" name="email" required></label>
+             </fieldset>
+
+             <fieldset>
+                <legend>
+                    Comment Type
+                </legend>
+                <label><input type="radio" name="type" value="suggestion">Campaign Suggestion</label>
+                <label><input type="radio" name="type" value="comment">Non-Urgent Comment</label>
+                <label><input type="radio" name="type" value="concern">Urgent Comment/Concern</label>
+        
+             </fieldset>
+             <fieldset>
+                <legend>
+                    Comment Content
+                </legend>
+                <label><input type="checkbox" name="NPC"value="chosen">Regarding NPC</label>
+                <label><input type="checkbox" name="PC"value="chosen">Regarding PC</label>
+                <label><input type="checkbox" name="Gameplay"value="chosen">Regarding Gameplay</label>
+                <label><input type="checkbox" name="Other"value="chosen">Other</label>
+                </fieldset>
+                <fieldset>
+                <label>
+                    <legend>
+                        Desired Recipient
+                    </legend>
+                <select name="Recipient">
+                    <option value="none">Please Select</option>
+                    <option value="DM">Dungeon Master: Finn</option>
+                    <option value="playerAn">Player: Andrew</option>
+                    <option value="playerAi">Player: Aiden</option>
+                    <option value="playerJo">Player: Jonathan</option>
+                    <option value="group">Group</option>
+                </select>
+                </label>
+             </fieldset>
+
+             <label>Comment
+                <textarea name="comment" required></textarea>
+             </label>
+        <input type="submit" value="Submit Comment">
+       </form>
 </body>
 <footer>
     <address>Contact Flyman Industries via phone at <a href="tel: +0000000000">000-000-0000</a></address>
