@@ -42,51 +42,57 @@ Look guys I dided a comment this is so information
     <h1>Contact Us</h1>
        <form method="get" class="myForm" action="Thanks.html">
             <fieldset>
-                <legend>Commenter Info</legend>
-            <label>Username <input type="text" name="user" required></label>
+                <legend class="info">Commenter Info</legend>
          <label>First Name<input type="text" name="fname" required></label>
           <label>Last Name<input type="text" name="lname"></label>
            <label>Cell Number<input type="tel" name="phone"></label>
            <label>Email<input type="email" name="email" required></label>
              </fieldset>
-
+<hr>
              <fieldset>
                 <legend>
-                    Comment Type
+                    Preferred Contact Method
                 </legend>
-                <label><input type="radio" name="type" value="suggestion">Campaign Suggestion</label>
-                <label><input type="radio" name="type" value="comment">Non-Urgent Comment</label>
-                <label><input type="radio" name="type" value="concern">Urgent Comment/Concern</label>
+                <label><input type="radio" name="type" value="suggestion">Phone Call</label>
+                <label><input type="radio" name="type" value="comment">Phone Text</label>
+                <label><input type="radio" name="type" value="concern">Email</label>
         
              </fieldset>
+             <hr>
              <fieldset>
                 <legend>
-                    Comment Content
+                    Content
                 </legend>
-                <label><input type="checkbox" name="NPC"value="chosen">Regarding NPC</label>
-                <label><input type="checkbox" name="PC"value="chosen">Regarding PC</label>
-                <label><input type="checkbox" name="Gameplay"value="chosen">Regarding Gameplay</label>
+                <label><input type="checkbox" name="NPC"value="chosen">Travel Questions</label>
+                <label><input type="checkbox" name="PC"value="chosen">Financial Options</label>
+                <label><input type="checkbox" name="Gameplay"value="chosen">Cancel Vacation</label>
                 <label><input type="checkbox" name="Other"value="chosen">Other</label>
                 </fieldset>
+                <hr>
                 <fieldset>
                 <label>
                     <legend>
-                        Desired Recipient
+                        Desired Contact Time
                     </legend>
                 <select name="Recipient">
                     <option value="none">Please Select</option>
-                    <option value="DM">Dungeon Master: Finn</option>
-                    <option value="playerAn">Player: Andrew</option>
-                    <option value="playerAi">Player: Aiden</option>
-                    <option value="playerJo">Player: Jonathan</option>
-                    <option value="group">Group</option>
+                    <option value="DM">Morning - 8:00am</option>
+                    <option value="playerAn">Noon - 12:00pm</option>
+                    <option value="playerAi">Afternoon - 3:00pm</option>
+                    <option value="playerJo">Evening - 6:00pm</option>
                 </select>
                 </label>
              </fieldset>
-
-             <label>Comment
+             <hr>
+             <fieldset>
+             <label>
+                <legend>
+                        Questions, Comments or Concerns
+                    </legend>
                 <textarea name="comment" required></textarea>
              </label>
+             <hr>
+             </fieldset>
         <input type="submit" value="Submit Comment">
        </form>
 </body>
